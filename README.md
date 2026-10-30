@@ -64,17 +64,16 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Nginx Proxy Manager is an open-source Docker-based web application that provides a simple, powerful interface for managing Nginx proxy hosts. It enables users to expose services securely with free SSL certificates from Let's Encrypt, supports custom Nginx configurations, and is designed with security in mind for home and small-business networks. The platform offers a user-friendly UI, Docker deployment, and community-driven development under the MIT license.
+Nginx Proxy Manager is an open-source Docker-based web interface for managing Nginx reverse proxy hosts. It provides an easy-to-use UI to create and configure proxy hosts, secure them with free Let’s Encrypt SSL certificates, enforce access controls, and monitor traffic. Designed for home users, developers, and small‑business environments, it simplifies exposing services securely on the internet while keeping the underlying Nginx configuration abstracted.
 
-**Areas:** Company · OpenSource · Docker · Nginx · Proxy · SSL
+**Areas:** Proxy · Reverse-Proxy · Docker · SSL · Open-Source · Home-Network
 
 ## Nginx Proxy Manager on APIs.io
 
 Everything profiled for Nginx Proxy Manager is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/nginx-proxy-manager/](https://apis.io/providers/nginx-proxy-manager/)** — or go straight to one of the APIs or properties below.
 
-### APIs (11)
+### APIs (10)
 
-- [Nginx Proxy Manager API](https://apis.io/apis/nginx-proxy-manager/nginx-proxy-manager-api/) — API for managing proxy hosts, certificates, and settings via HTTP endpoints.
 - [Nginx Proxy Manager Audit Log API](https://apis.io/apis/nginx-proxy-manager/nginx-proxy-manager-audit-log-api/) — The Audit Log API from Nginx Proxy Manager — 2 operation(s) for audit log.
 - [Nginx Proxy Manager Logs API](https://apis.io/apis/nginx-proxy-manager/nginx-proxy-manager-logs-api/) — The Logs API from Nginx Proxy Manager — 2 operation(s) for logs.
 - [Nginx Proxy Manager Nginx API](https://apis.io/apis/nginx-proxy-manager/nginx-proxy-manager-nginx-api/) — The Nginx API from Nginx Proxy Manager — 26 operation(s) for nginx.
@@ -90,23 +89,30 @@ Everything profiled for Nginx Proxy Manager is published on APIs.io rather than 
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-#### Agentic access (1)
-
-Which operations an agent can call, which act, and which need a human in the loop.
-
-- [Nginx Proxy Manager Agentic Access](https://apis.io/agentic-access/nginx-proxy-manager/nginx-proxy-manager-agentic-access/)
-
-#### Governance rules (1)
-
-Spectral rulesets for the provider's contracts.
-
-- [Nginx Proxy Manager API Rules](https://apis.io/rules/nginx-proxy-manager/nginx-proxy-manager-rules/)
-
-#### Security (1)
+#### Security (2)
 
 Authentication, trust centre, and vulnerability disclosure.
 
+- [Nginx Proxy Manager Authentication](https://apis.io/security/nginx-proxy-manager/nginx-proxy-manager-authentication/)
 - [Nginx Proxy Manager Domain Security](https://apis.io/security/nginx-proxy-manager/nginx-proxy-manager-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Nginx Proxy Manager Scopes](https://apis.io/scopes/nginx-proxy-manager/nginx-proxy-manager-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Nginx Proxy Manager Plans Pricing](https://apis.io/plans/nginx-proxy-manager/nginx-proxy-manager-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Nginx Proxy Manager Rate Limits](https://apis.io/rate-limits/nginx-proxy-manager/nginx-proxy-manager-rate-limits/)
 
 ## Where to find this API
 
@@ -115,33 +121,34 @@ Links to the company's own pages. This repository publishes no copy of their spe
 - [Website](https://nginxproxymanager.com/)
 - [Documentation](https://nginxproxymanager.com/guide/)
 - [Getting started](https://nginxproxymanager.com/setup/)
+- [GitHub](https://github.com/NginxProxyManager)
 
 ## API Evangelist rating
 
-**Kin Score 29.7** — thin · rubric 0.25.0 · scored 2026-10-28
+**Kin Score 18.6** — emerging · rubric 0.25.0 · scored 2026-10-28
 
 | Facet | Score |
 |---|---|
-| Discoverability | 57.1 |
+| Discoverability | 48.2 |
 | Contract quality | 34.9 |
-| Contract governance | 79.1 |
+| Contract governance | 0.0 |
 | Operational transparency | 5.3 |
-| Developer ergonomics | 28.6 |
+| Developer ergonomics | 21.4 |
 | Access clarity | 0.0 |
 
-**Agent readiness 23.1** — agent-aware
+**Agent readiness 19.2** — agent-aware
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
+| Agentic Access | — |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | — |
 | Idempotency | — |
 | Error Semantics | — |
 | OpenAPI Examples | — |
-| Rate Limit Signal | — |
+| Rate Limit Signal | documented (partial credit) |
 | Event Surface Described | — |
 | Agent Skills | — |
 | Well Known Catalog | — |
@@ -153,9 +160,9 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Dynamic Client Registration | — |
 | Agentic Commerce | — |
 | Pagination Ratio | na |
-| Operation Distinctiveness | mostly (partial credit) |
+| Operation Distinctiveness | mostly |
 
-**Regulatory alignment 10.8** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 15.7** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/nginx-proxy-manager/](https://apis.io/providers/nginx-proxy-manager/).
 
